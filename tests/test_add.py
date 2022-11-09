@@ -1,4 +1,4 @@
-from unit_testing_example.my_functions import add
+from app.my_functions import add
 
 def test_positive_numbers():
     total = add(1,2)

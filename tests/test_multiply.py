@@ -1,4 +1,4 @@
-from unit_testing_example.my_functions import multiply
+from app.my_functions import multiply
 
 def test_positive_numbers():
     total = multiply(1,2)
