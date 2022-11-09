@@ -67,7 +67,7 @@ resource "aws_security_group" "mtc_sg" {
 
 resource "aws_key_pair" "mtc_auth" {
   key_name   = "derek-morgan-course-dev-mtckey"
-  public_key = file("~/.ssh/derek-morgan-course-key.pub")
+  public_key = var.public_key
 }
 
 resource "aws_instance" "dev_node" {
