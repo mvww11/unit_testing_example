@@ -11,4 +11,4 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt-get update -y &&
 sudo sudo apt-get install docker-ce docker-ce-cli containerd.io -y &&
 sudo usermod -aG docker ubuntu &&
-sudo git clone https://github.com/mvww11/unit_testing_example.git /var/tmp/unit_testing_example2
+sudo git clone https://github.com/mvww11/unit_testing_example.git /var/tmp/my_project
