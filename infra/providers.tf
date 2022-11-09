@@ -4,6 +4,14 @@ terraform {
       source = "hashicorp/aws"
     }
   }
+
+  cloud {
+    organization = "mvww11"
+
+    workspaces {
+      name = "gh-actions-demo"
+    }
+  }
 }
 
 provider "aws" {
